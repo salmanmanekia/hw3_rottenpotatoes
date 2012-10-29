@@ -40,3 +40,10 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
+
+
+group :test do 
+  gem 'cucumber-rails' 
+  gem 'cucumber-rails-training-wheels' 
+  gem 'rspec' 
+end
